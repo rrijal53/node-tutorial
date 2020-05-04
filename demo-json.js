@@ -8,6 +8,7 @@ array.push({ username: "username", password: "password", age: 14 });
 fs.writeFileSync("user.json", JSON.stringify(array), "utf-8");
 
 fs.writeFile("user.json", JSON.stringify(array), "utf-8", (err)=>{
+  console.log("login api")
 });
 
 console.log("registered");
