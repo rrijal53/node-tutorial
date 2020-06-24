@@ -15,8 +15,6 @@ app.post("/login", function (req, res) {
   console.log(req);
   var username = req.body.username;
   var password = req.body.password;
-  //todo : connect to databse, check i........
-  //read from line
   // seach for username 
   //if found compare username and password
   //sucesss; response user object
