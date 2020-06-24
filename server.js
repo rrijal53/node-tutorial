@@ -30,20 +30,6 @@ app.post("/register", function (req, res) {
   })
 
 
-  // fs.writeFile("users.txt", data, "utf-8", function (err) {
-  //   if (!err) {
-  //     res.send({
-  //       message: "registered successfully",
-  //     });
-  //   } else {
-  //     res.send({
-  //       message: "unable to register",
-  //     });
-  //   }
-  });
-  //save to file
-});
-
 var server = app.listen(8081, function () {
   var host = server.address().address;
   var port = server.address().port;
