@@ -15,8 +15,6 @@ app.post("/login", function (req, res) {
   console.log(req);
   var username = req.body.username;
   var password = req.body.password;
-  //sucesss; response user object
-  // faile  : message : "incorrect"
   res.send("Hello " + username);
 });
 
